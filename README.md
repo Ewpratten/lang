@@ -4,7 +4,21 @@ Lang is a simple Java library that can handle multiple `.lang` files, and switch
 
 ## Installation
 
-This library can be installed from [JitPack](https://jitpack.io/#ewpratten/lang).
+**Step 1.** Add the RetryLife maven server to your `build.gradle` file:
+
+```groovy
+repositories {
+    maven { url 'https://maven.retrylife.ca' }
+}
+```
+
+**Step 1.** Add this library as a dependency:
+
+```groovy
+dependencies {
+    implementation 'ca.retrylife:lang:v1.+'
+}
+```
 
 ## Usage
 

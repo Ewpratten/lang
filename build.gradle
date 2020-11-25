@@ -11,7 +11,7 @@ plugins {
     id 'java-library'
     id "java"
 
-    id "ca.retrylife.gradle.sensibledefaults" version "1.+"
+    id "ca.retrylife.gradle.sensibledefaults" version "1.0.4"
 }
 
 repositories {
